@@ -1,8 +1,11 @@
+import { StoreProvider } from "easy-peasy";
+import store from "../store";
+
 function App() {
     return ( 
-    <div>
-        <h1> Hello World </h1>
-     </div>
+    <StoreProvider store={store}> 
+         <h1> Hello World </h1>
+    </StoreProvider>
     );
 }
 
