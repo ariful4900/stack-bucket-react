@@ -1,22 +1,22 @@
-import crossIcon from './icons/cross-icon.png'
+// import crossIcon from './icons/cross-icon.png'
 import deleteIcon from './icons/delete-icon.png'
 import downArrowWhiteIcon from './icons/down-arrow-white-icon.png'
 import editIcon from './icons/edit-icon.png'
 import leftArrowIcon from './icons/left-arrow-icon.png'
-import moreMenuIcon from './icons/more-menu-icon.png'
+import moreMenuIcon from './icons/more-menu.png'
 import pluseIcon from './icons/plus-icon.png'
 import printerIcon from './icons/printer-icon.png'
 import printerWhiteIcon from './icons/printer-white-icon.png'
 import printerWhiteIcon2 from './icons/printer-white-icon2.png'
 import rightArrowIcon from './icons/right-arrow-icon.png'
 import searchIcon from './icons/search-icon.png'
-import tickIcon from './icons/tick-icon.png'
-import upArrowIcon from './icons/up-arrow-icon.png'
+// import tickIcon from './icons/tick-icon.png'
+// import upArrowIcon from './icons/up-arrow-icon.png'
 
 import brandLogo from './brand-logo/brand-logo.svg'
 
 const icons = {
-    crossIcon,
+    // crossIcon,
     deleteIcon,
     downArrowWhiteIcon,
     editIcon,
@@ -28,13 +28,13 @@ const icons = {
     printerWhiteIcon2,
     rightArrowIcon,
     searchIcon,
-    tickIcon,
-    upArrowIcon
+    // tickIcon,
+    // upArrowIcon
 };
 const images = {};
 
 const brand = {
-    brandLogo
+    brandLogo,
 };
 
-export {icons, images, brand};
+export { icons, images, brand };
